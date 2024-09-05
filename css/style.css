@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+	text-align:center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:beige;
+  padding:30px;
+  border-radius:10px;
+}
+label{
+	display:flex;
+	margin-top:10px;
+	position:absolute;
+	left:20%;
+	
+	justify-content:left;
+	
+}
+input{
+	margin:10px;
+	width:80%;
+}
+button{
+	width:100px;
+	height:40px;
+	border-radius:10px;
+	background:#00C301;
+	border:none;
+	color:white;
+	margin:20px;
+}
+button:hover{
+	cursor:pointer;
+	background:#87FF88;
+	color: #4D2B2B;
+}
+
